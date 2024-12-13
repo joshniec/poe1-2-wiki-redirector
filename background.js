@@ -23,7 +23,7 @@
             const isFextraLife = POE_FEXTRALIFE_REGEX.test(url.host); // Check to ensure the redirect is occurring on the fextralife domain.
 
             // If domain isn't subdomain of fandom.com or fextralife.com, ignore, also if it's not in the redirect filter
-            if (!isFandom || !isFextraLife) return;
+            if (!isFandom && !isFextraLife) return;
 
             // Generate new url
             const oldHost = url.host.split('.')[0].toLowerCase();
