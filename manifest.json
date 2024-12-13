@@ -2,7 +2,7 @@
     "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 3,
     "name": "PoE 1 & 2 Wiki Redirector",
-    "description": "Redirects PoE Fandom and Fextralife requests to PoE1/2 Wiki respectively, as well as removes PoE Fandom and FextraLife search results from Google.",
+    "description": "Redirects PoE Fandom and Fextralife requests to PoE1/2 Wiki respectively, as well as removes their search results from Google.",
     "author": "jittarao",
     "version": "1.0",
     "icons": {
